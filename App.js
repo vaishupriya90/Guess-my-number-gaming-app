@@ -1,12 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import StartGameScreen from './screens/StartGameSceen';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>hello World!!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <StartGameScreen />
   );
 }
 
